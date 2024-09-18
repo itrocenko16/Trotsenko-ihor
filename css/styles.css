@@ -54,13 +54,6 @@ button {
 button:hover {
     background-color: rgb(7, 168, 7);
 }
-.container2 {
-    flex-direction: column; */
-    width: 25%;
-    box-sizing: border-box;
-    align-items: center;
-    justify-items: center;
-}
 .container2 div {
     padding: 6px;
     border: 1px solid black;
@@ -70,13 +63,11 @@ button:hover {
     cursor: pointer;
     width: 25%;
     margin-bottom: 15px;
-    border: 1px solid color black;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    display: inline-block;
 }
-
-
 .container2 img {
     margin: 0 10px;
     height: 20px;
