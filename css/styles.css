@@ -57,9 +57,9 @@ button:hover {
 .container2 {
     flex-direction: column; */
     width: 25%;
-    /* /* box-sizing: border-box; */
-    align-items: center; */
-    /* /* justify-items: center; */
+    box-sizing: border-box;
+    align-items: center;
+    justify-items: center;
 }
 .container2 div {
     padding: 6px;
@@ -68,7 +68,7 @@ button:hover {
     color: white;
     font-size: 14px;
     cursor: pointer;
-    width: 100%;
+    width: 25%;
     margin-bottom: 15px;
     border: 1px solid color black;
     align-items: center;
