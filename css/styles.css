@@ -1,3 +1,40 @@
-div, input, form {
-        padding: 8px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    margin: 0;
+}
+.container1 {
+    padding: 20px;
+    border-radius: 10 px;
+    text-align: center;
+
+
+
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+span {
+    color: green;
+}
+
+/* div, input, form {
+    padding: 6px;
         }
+div a {
+    border: 1px solid black;
+    padding: 20px;
+    width: 50px;
+    height: 30px;
+} */
