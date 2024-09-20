@@ -52,8 +52,14 @@ header img {
 
 .home { 
     font-weight: 700;
+    margin-right: 41px;
 }    
-
+.shop {
+    margin-right: 50px;
+}
+.pl {
+    margin-right: 50px;
+}
 
 
 
