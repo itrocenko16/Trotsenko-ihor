@@ -6,15 +6,31 @@ body {
     height: 597px;
 }
 header {
+    color: red;
+}
+header {
     display: inline-block;
     width: 1200px;
     height: 53px;
-    margin: 30px 120px 12px 120px;
-}
+    margin: 30px 120px 23px 120px;
+    background-color: grey;
 
+}
+header button {
+    margin: 0 0 18px 1100px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    background: #46a358;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
 nav {
     width: 351px;
     height: 45px;
+    background-color: orange;
 }
 span {
     color: #46a358;;
@@ -31,7 +47,7 @@ span {
     font-size: 14px;
     line-height: 171%;
     color: #727272;
-    margin: 0 0 44px 0;
+    margin: 10px 0 44px 0;
 }
 h1 {
     width: 530px;
@@ -39,30 +55,24 @@ h1 {
     font-weight: 900;
     font-size: 70px;
     color: #3d3d3d;
-    margin: 0 0 5px 0;
+    margin: 0 0 5px 0;;
 }
 
-.button-header {
-    border: none;
-    box-sizing: border-box;
-    color: white;
-    width: 100px;
-    height: 35px;
-    font-size: 16px;
-    background: green;
-    border-radius: 6px;
-    padding: 8px 17px 7px 41px;
-  
-}
+a {
 
-
-
-.link-header {
     margin: 8px 470px 0 379px;
+    text-decoration: none;
+    color: #3d3d3d;
+    
 }
-.button-header {
-    margin: 0 0 18px 1100px;
+
+.home { 
+    font-weight: 700;
 }
+
+
+
+
 .wrapper {
     display: flex;
     width: 100%;
@@ -72,8 +82,6 @@ h1 {
     background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
     padding-left: 40px;
 }
-
-
 .col1 button {
     width: 140px;
     height: 40px;
@@ -85,7 +93,6 @@ h1 {
     font-weight: 700;
     font-size: 16px;
 }
-
 .col2 {
     box-sizing: border-box;
     width: 507px;
