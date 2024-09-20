@@ -25,7 +25,6 @@ header {
     border-bottom: 0.30px solid rgba(70, 163, 88, 0.5);
     height: 0px;
 }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -80,16 +79,6 @@ header img {
 .bl {
     font-family: "Cera-pro-reg";
 }
-
-
-
-
-
-
-
-
-
-
 span {
     color: #46a358;;
 }
@@ -118,7 +107,6 @@ h1 {
     margin: 0 0 5px 0;
     font-family: "Cera-pro-black";
 }
-
 .wrapper {
     display: flex;
     width: 1200px;
