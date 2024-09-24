@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    border: 1px solid color black;
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container1 {
+    padding: 20px;
+    border-radius: 10 px;
+    text-align: center;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+span {
+    color: green;
+}
+p {
+    margin-bottom: 20px;
+}
+form {
+    flex-direction: column;
+    width: 100%;
+}
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 25%;
+    box-sizing: border-box;
+}
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 25%;
+    box-sizing: border-box;
+}
+button:hover {
+    background-color: rgb(7, 168, 7);
+}
+.container2 div {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    width: 25%;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.container2 img {
+    margin: 0 10px;
+    height: 20px;
+}
+a {
+    text-decoration: none;
+}
