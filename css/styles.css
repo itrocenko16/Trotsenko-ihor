@@ -144,6 +144,11 @@ h1 {
     box-sizing: border-box;
     width: 1229px;
     height: 1369px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+   
 }
 
 
@@ -156,6 +161,7 @@ div aside {
     flex-direction: column;
     background: #fbfbfb;
     margin-left: 135px;
+    
 }
 .side {
     width: 103px;
@@ -195,3 +201,43 @@ h4 {
     margin: 7px 192px 393px 27px;
 }
 
+
+.ssbunner {
+    width: 370px;
+    height: 470px;
+    margin: 0 19px 207px 106px;
+}
+
+.filter {
+    display: flex;
+    width: 838px;
+    height: 23px;
+    border: 1px solid black;
+    
+}
+.filter-img {
+    font-size: 15px;
+    background-color: white;
+    border: none;
+}
+.shop {
+    width: 847px;
+    height: 1190px;
+    border: 1px solid black;
+    
+}
+
+.pag {
+    width: 215px;
+    height: 35px;
+}
+.imgpag {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+}
